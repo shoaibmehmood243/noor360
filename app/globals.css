@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* CSS Variables mirroring Tailwind design tokens */
+  --bg: #0A0E1A;
+  --bg-2: #0f1525;
+  --bg-3: #111827;
+  --bg-4: #1a2235;
+  --bg-5: #1e2a40;
+
+  --gold: #C9A84C;
+  --gold-2: #E8C97A;
+  --gold-3: #F5E4B0;
+  --gold-dim: rgba(201, 168, 76, 0.12);
+  --gold-border: rgba(201, 168, 76, 0.2);
+
+  --teal: #2DD4BF;
+  --teal-2: #99F6E4;
+  --teal-dim: rgba(45, 212, 191, 0.12);
+
+  --text: #F0EAD6;
+  --text-2: #A89F8C;
+  --text-3: #6B6355;
+  --text-4: #4a4236;
+
+  --purple: #8B5CF6;
+  --purple-2: #C4B5FD;
+  --purple-dim: rgba(139, 92, 246, 0.12);
+
+  /* Font mapping variables for Tailwind compatibility */
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-arabic: 'Amiri', serif;
+}
+
+.light {
+  /* Premium off-white/cream luxury variables */
+  --bg: #FCFBF9;
+  --bg-2: #F5EFE6;
+  --bg-3: #FFFFFF;
+  --bg-4: #EFE6D5;
+  --bg-5: #E5D5C0;
+
+  --gold: #A28233;
+  --gold-2: #7D6321;
+  --gold-3: #584412;
+  --gold-dim: rgba(162, 130, 51, 0.08);
+  --gold-border: rgba(162, 130, 51, 0.18);
+
+  --teal: #0D9488;
+  --teal-2: #115E59;
+  --teal-dim: rgba(13, 148, 136, 0.08);
+
+  --text: #2B2620;
+  --text-2: #5D5449;
+  --text-3: #8C7F70;
+  --text-4: #B8A896;
+
+  --purple: #7C3AED;
+  --purple-2: #5B21B6;
+  --purple-dim: rgba(124, 58, 237, 0.08);
+}
+
+/* Custom Scrollbar configuration */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 9999px;
+}
+
+/* Custom ::selection theme values */
+::selection {
+  background-color: #C9A84C;
+  color: #0A0E1A;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    @apply antialiased;
+  }
+}
+
+/* Arabic Utility Class */
+.font-arabic {
+  font-family: var(--font-arabic), 'Amiri', serif;
+  direction: rtl;
+  text-align: right;
+}

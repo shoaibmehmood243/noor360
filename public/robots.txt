@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://noor360.app
+
+# Sitemaps
+Sitemap: https://noor360.app/sitemap.xml
