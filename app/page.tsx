@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import PageTransition from "@/components/shared/PageTransition";
 import Hero from "@/components/sections/home/Hero";
-
-const Pillars = dynamic(() => import("@/components/sections/home/Pillars"), { ssr: false });
-const FeatureRows = dynamic(() => import("@/components/sections/home/FeatureRows"), { ssr: false });
-const Stats = dynamic(() => import("@/components/sections/home/Stats"), { ssr: false });
-const Languages = dynamic(() => import("@/components/sections/home/Languages"), { ssr: false });
+import Pillars from "@/components/sections/home/Pillars";
+import FeatureRows from "@/components/sections/home/FeatureRows";
+import Stats from "@/components/sections/home/Stats";
+import Languages from "@/components/sections/home/Languages";
 
 export const metadata: Metadata = {
   title: "Noor360 — Your Complete Islamic Companion",
@@ -62,7 +61,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      
+
       <PageTransition>
         <Hero />
         <Pillars />
