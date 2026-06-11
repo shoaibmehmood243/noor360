@@ -58,7 +58,7 @@ export default function Hero() {
 
             {/* 2. Arabic Bismillah Line */}
             <motion.div variants={itemVariants} className="flex flex-col gap-1.5 w-fit">
-              <span className="font-arabic text-gold-2 text-2xl tracking-normal leading-none pointer-events-none select-none">
+              <span className="font-arabic text-gold-2 text-2xl tracking-normal leading-none pointer-events-none select-none my-2">
                 بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
               </span>
               <span className="text-text-3 font-body text-xs italic tracking-wider leading-none">

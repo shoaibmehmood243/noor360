@@ -36,9 +36,6 @@ export default function Footer() {
             <p className="text-sm text-text-2 leading-relaxed">
               Your complete Islamic companion — built for the global Muslim community.
             </p>
-            <span className="font-arabic text-gold opacity-40 text-2xl mt-2 select-none pointer-events-none">
-              نور ٣٦٠
-            </span>
             {/* Social Icons Row - Inline Custom SVGs */}
             <div className="flex items-center gap-4 mt-2">
               <a
@@ -47,7 +44,7 @@ export default function Footer() {
                 className="w-9 h-9 rounded-lg bg-bg-3 border border-gold-border/20 flex items-center justify-center text-text-2 hover:text-gold hover:border-gold/40 transition-all duration-300"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
               <a
@@ -56,9 +53,9 @@ export default function Footer() {
                 className="w-9 h-9 rounded-lg bg-bg-3 border border-gold-border/20 flex items-center justify-center text-text-2 hover:text-gold hover:border-gold/40 transition-all duration-300"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                 </svg>
               </a>
               <a
@@ -67,9 +64,9 @@ export default function Footer() {
                 className="w-9 h-9 rounded-lg bg-bg-3 border border-gold-border/20 flex items-center justify-center text-text-2 hover:text-gold hover:border-gold/40 transition-all duration-300"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-                  <rect x="2" y="9" width="4" height="12"/>
-                  <circle cx="4" cy="4" r="2"/>
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
                 </svg>
               </a>
             </div>
@@ -170,7 +167,7 @@ export default function Footer() {
 
         {/* BOTTOM BAR */}
         <div className="border-t border-gold-border/20 pt-8 mt-4 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-text-3">
-          <p>© 2025 Noor360. All rights reserved.</p>
+          <p>© 2026 Noor360. All rights reserved.</p>
           <span className="font-arabic text-gold/30 text-lg select-none pointer-events-none">
             بِسْمِ اللهِ
           </span>
